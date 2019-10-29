@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2019. Xiang Li From Australian National University CECS  All Rights Reserved. FileName: activity_basic.xml@author: jack@date: 19-5-22 上午4:11@version: 1.0
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puzzle.BasicActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="17dp"
+        android:scaleType="centerCrop"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arrow" />
+
+    <com.hanks.htextview.line.LineTextView
+        android:id="@+id/lineTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textColor="#03A9F4"
+        android:textSize="20dp"
+        app:animationDuration="3000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+
+
+
+    <com.example.lostincrowds.UI.Stickline
+        android:id="@+id/SticklineBasic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.lostincrowds.UI.DrawLine
+        android:id="@+id/DrawLineBasic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.lostincrowds.UI.MyImageButton
+        android:id="@+id/reset"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <com.example.lostincrowds.UI.MyImageButton
+        android:id="@+id/start"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+
+</android.support.constraint.ConstraintLayout>

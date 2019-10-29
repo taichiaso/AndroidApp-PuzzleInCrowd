@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright (c) 2019. Xiang Li From Australian National University CECS  All Rights Reserved. FileName: activity_menu.xml@author: jack@date: 19-5-22 上午3:01@version: 1.0
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <com.example.lostincrowds.UI.MyImageButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="772dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <com.example.lostincrowds.UI.MyImageButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="continue"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="772dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <com.example.lostincrowds.UI.MyImageButton
+        android:id="@+id/sandbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="772dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <com.example.lostincrowds.UI.MyImageButton
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="772dp"
+        tools:layout_editor_absoluteY="592dp" />
+    <com.example.lostincrowds.UI.MyImageButton
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="help"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="772dp"
+        tools:layout_editor_absoluteY="592dp" />
+</android.support.constraint.ConstraintLayout>
