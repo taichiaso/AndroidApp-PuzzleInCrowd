@@ -1,16 +1,9 @@
 # Sociological Game - _Lost in Crowds_
-![](https://img.shields.io/badge/ASS-COMP6442/2100-brightgreen.svg)
-![](https://img.shields.io/apm/l/vim-mode.svg)
-![](https://img.shields.io/badge/Platform-Android-brightgreen.svg)
-![](https://img.shields.io/badge/Version-1.0.0-orange.svg)
-![](https://img.shields.io/badge/Release-1-yellow.svg)
-* To learn more about this project, read the [wiki](https://gitlab.cecs.anu.edu.au/u6716878/AssignApp2019s1/wikis/home)  
-* [Release Detail](https://gitlab.cecs.anu.edu.au/u6716878/AssignApp2019s1/wikis/Released-Apk)
 
 ## Team structure and roles 
-+ Xiang Li u6716878 - team leader, networker, morale builder
-+ Taichi Aso u6577201 - note taker, documentation checker, logic_designer
-+ Xiaorong Ma u6641690 - tricky android code, app state, graphics rendering
++ Xiang Li - team leader, networker, morale builder
++ Taichi Aso- note taker, documentation checker, logic_designer
++ Xiaorong Ma - tricky android code, app state, graphics rendering
 
 ## Game Overview 
 ![](Assets/thumb.png)
@@ -35,10 +28,3 @@ _Lost in Crowds_ thanks to Creative Commons resources/Open sources libs:
 *  [JumpingBeans](https://github.com/frakbot/JumpingBeans)  by Sebastiano Poggi 
 *  [NumberProgressBar](https://github.com/daimajia/NumberProgressBar) by daimajia
 *  [Android additive animations](https://github.com/wirecube/android_additive_animations) by David Ganster
-## Originality statement
-We declare that the work we have submitted for  this assignment  it is entirely our own work, with the following documented exceptions:
-.
-
-Signed: Xiang Li(u6716878), XiaoRong Ma(u6641690),Taichi Aso(u6577201)
-
-
